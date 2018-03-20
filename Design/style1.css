@@ -1,0 +1,58 @@
+body{
+	 background-color: white;  
+  background-image: url("4.jpg");  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+  background-size: cover;
+}
+button{
+		height:100px;
+		width:400px;
+		font-family:verdana;
+		font-size:30px;
+		padding-right:30;
+		padding-left:50;
+		margin-left:40px;
+		margin-right:40px;
+		background-color:#A569BD;
+		border-radius:12px;
+		color:black;
+		transition:all 0.5s;
+		border:2px solid #555555;
+		box-shadow:0 18px 36px 0 
+		rgba(0,0,0,0.24),0 15px 30px 0
+		rgba(0,0,0,0.50);
+}
+h1.TE{
+	font-size:70px;
+	color:black;
+}
+h2.SC{
+	font-size:50px;
+	color:#800000;
+}
+button{
+			cursor:pointer;
+			display:inline-bloack;
+			position:relative;
+			transition:0.5s;
+
+}
+button:hover{
+  padding-right: 25px;
+  background-color:#626567;
+  color:black;
+}
+button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover :after {
+  opacity: 1;
+  right: 0;
+}
